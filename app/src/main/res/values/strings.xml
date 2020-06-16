@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EB_BE Dictionary(Speaking)</string>
+    <array name="dic"/>
+        <string-array name="d">
+         <item>1.Go To Settings</item>
+         <item>2.Accessibility</item>
+         <item>3.Text-To-Speech</item>
+            <item>4.Set Text-To-Speech As Default Setting Of 'Google Text-to-Speech Engine</item>
+        </string-array>
+
+
+
+</resources>

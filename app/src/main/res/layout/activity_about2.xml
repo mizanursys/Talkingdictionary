@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    tools:context=".About2">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="30sp"
+        android:text="Sudo Developer"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#ed0c13"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="আমাদের অ্যাপ ব্যবহার করার জন্য ধন্যবাদ। আমরা উন্নতি ও আপডেট করার জন্য কাজ করছি আমাদের অভিধান। যদি আপনার কোন অভিযোগ থাকে তবে দয়া করে আমাদের সাথে যোগাযোগ করুন
+         এই মেইল:-"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#f9f5f5"/>
+    <TextView
+        android:id="@+id/mail"
+        android:background="@drawable/fr3"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:text="sudodeveloper81@gmail.com"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#018efa"/>
+    <TextView
+        android:background="@drawable/boarder"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="40sp"
+        android:gravity="center"
+        android:text="Aleart"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="#fa4001"/>
+        <TextView
+            android:background="@drawable/boarder"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text=" If You Are A Samsung User Please Follow The Below Steps For Better Experience"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#018efa"/>
+        <TextView
+            android:background="@drawable/back2"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:text="1. Go To Settings"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#f0fc10"/>
+        <TextView
+            android:background="@drawable/back2"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:gravity="center"
+            android:text="2. Accessibility"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#f0fc10"/>
+        <TextView
+            android:background="@drawable/back2"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:text="3. Text-To-Speech"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#f0fc10"/>
+        <TextView
+            android:background="@drawable/back2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="4. Set 'Google Text-to-Speech Engine' As Default Setting "
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#f0fc10"/>
+        <Button
+            android:id="@+id/setting"
+            android:backgroundTint="#d2caca"
+            android:background="@drawable/boarder"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:gravity="center"
+            android:text="Tap to open Accessibility Setting"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="#fa4001"/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
